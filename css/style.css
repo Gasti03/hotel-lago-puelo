@@ -1,27 +1,38 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
 }
-header{
+
+header {
     text-align: center;
 }
-h1{
-    color: darkgreen; font-size: 100px ; 
+
+h1 {
+    color: darkgreen;
+    font-size: 100px;
 }
-ul{
-    display: inline-block;   
-}
-footer{
+
+footer {
     text-align: center;
 }
-.presentacion{
+
+.presentacion {
     text-align: center;
 }
-main{
+
+main {
     text-align: center;
 }
-.contenedor-imagenes{
+
+.contenedor-imagenes {
     display: flex;
+}
+
+header div {
+    background-color: #FDFFFF;
+}
+body{
+    padding-top: 155px;
 }
