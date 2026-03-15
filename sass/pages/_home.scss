@@ -1,0 +1,27 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as *;
+
+header nav {
+    @include border;
+}
+
+main {
+    @include flex;
+    @include border;
+    h1 {
+        font-size: clamp(2rem, 5vw, 6rem);
+        color: white;
+        text-shadow: 0 0 25px $color-tipografia;
+    }
+    video {
+        @include video (100%);
+    }
+}
+
+footer {
+    color: $color-tipografia;
+    text-align: center;
+    section {
+        @include grid (auto auto auto , 3rem);
+    } 
+}
