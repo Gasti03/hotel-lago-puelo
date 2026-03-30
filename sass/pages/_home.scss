@@ -14,7 +14,8 @@ main {
         text-shadow: 0 0 25px $color-tipografia;
     }
     video {
-        @include video (100%);
+        @include video (95%);
+        width: 1200px;
     }
 }
 

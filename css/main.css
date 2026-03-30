@@ -34,10 +34,11 @@ main h1 {
   text-shadow: 0 0 25px darkgreen;
 }
 main video {
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
   display: block;
   margin: auto;
+  width: 1200px;
 }
 
 footer {
